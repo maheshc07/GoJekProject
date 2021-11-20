@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Card Payment Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Test(failed)">
+    <classes>
+      <class name="com.gojek.testcases.FailedCredit">
+        <methods>
+          <include name="transactionCompleted"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gojek.testcases.FailedCredit -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Card Payment Test] -->

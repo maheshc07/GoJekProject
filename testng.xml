@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM  "http://testng.org/testng-1.0.dtd">
+<suite name="Card Payment Suite">
+
+	<listeners>
+		<listener class-name="com.gojek.listeners.CustomListener" />
+	</listeners>
+	
+	<test name="Assignment Test">
+		<classes>
+			<class name="com.gojek.testcases.SuccessCredit" />
+			<class name="com.gojek.testcases.FailedCredit" />
+		</classes>
+	</test>
+
+</suite>
